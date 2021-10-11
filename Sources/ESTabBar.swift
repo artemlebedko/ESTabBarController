@@ -389,7 +389,7 @@ internal extension ESTabBar /* Actions */ {
                         }
                     } else {
                         if navVC.viewControllers.count > 1 {
-                            navVC.popToRootViewController(animated: animated)
+                            //navVC.popToRootViewController(animated: animated)
                         }
                     }
                 }
